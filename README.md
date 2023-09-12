@@ -1,4 +1,4 @@
-# Amanda Chawińska - slajder
+# Amanda Chawińska - slaider
 
 ## Used technologies:
 
@@ -9,7 +9,7 @@
 
 ## Link
 
-https://amandachawinska.github.io/currency-converter/
+https://amandachawinska.github.io/slaider/
 
 ## Description
 
