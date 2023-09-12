@@ -7,9 +7,9 @@
 - Bootstrap 5
 - Java Script
 
-## Link
+## Plugin
 
-https://amandachawinska.github.io/slaider/
+Bootstrap 5 Quick Snippets
 
 ## Description
 
