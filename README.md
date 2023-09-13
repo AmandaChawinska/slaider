@@ -1,5 +1,8 @@
 # Amanda Chawińska - slaider
 
+## Live:
+ https://amandachawinska.github.io/slaider/
+
 ## Used technologies:
 
 - HTML
