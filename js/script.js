@@ -1,6 +1,6 @@
 console.log("Witam wszystkich zainteresowanych :)");
 
-const activeSlideIndexes = [0, 1, 2, 3, 4, 5, 6];
+let activeSlideIndexes = [0, 1, 2, 3, 4, 5, 6];
 const slides = document.querySelectorAll(".slide");
 const totalSlides = slides.length;
 let interval;
@@ -39,7 +39,7 @@ const showNextSlide = () => {
   updateActiveDot();
 };
 
-const showPreviousSilde = () => {
+const showPreviousSlide = () => {
   for (let i = 0; i < activeSlideIndexes.length; i++) {
     slides[activeSlideIndexes[i]].classList.remove("active");
     activeSlideIndexes[i] =
@@ -97,6 +97,6 @@ arrowRight.addEventListener("click", () => {
 
 arrowLeft.addEventListener("click", () => {
   stopAutoSlideShow();
-  showPreviousSilde();
+  showPreviousSlide();
   startAutoSlideShow();
 });
